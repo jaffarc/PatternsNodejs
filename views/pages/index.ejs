@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<% include ../partials/head %>
+</head>
+<body>
+<div class="container-fluid">
+<div class="row">
+  <div class="col-xs-12">
+  		<ul>
+  			
+  		<% Menu.forEach(function(menu) { %>
+        	<li><%= menu.nome %> </li>
+    	<% }); %>
+  		</ul>
+  </div>
+ 
+</div>
+
+
+    
+	<div class="jumbotron text-center">
+		<h1><span class="fa fa-lock"></span> Node Authentication</h1>
+
+		<p>Login or Register with:</p>
+		<a href="/signup" class="btn btn-default"><span class="fa fa-user"></span> Local Signup</a>
+	</div>
+	
+	<% include ../partials/slider%>
+	<% include ../partials/solucao%>
+	
+
+</div>
+	<footer>
+		<% include ../partials/footer%>
+	</footer>
+	
+</body>
+</html>

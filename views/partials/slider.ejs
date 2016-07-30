@@ -1,0 +1,28 @@
+	<section>
+		<div class="full">
+			<div class="productCarrousel slider">
+				<div class="carrosselniced" data-view="1" data-grid=".productCarrousel" data-nav="false" data-auto="true" data-bullet="true" data-delay="4500" data-transition="850">
+					<div class="block">
+						<div class="content">
+							<!-- content li - product -->
+							<div>
+								<ul>
+									<% Slider.forEach(function(slider) { %>
+								        <li>
+									        
+											<figure>
+												<img src="<%= slider.img %> " />
+											</figure>
+										</li>
+									    <% }); %>
+										
+							
+								</ul>
+							</div>
+							<!-- /content li - product -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>

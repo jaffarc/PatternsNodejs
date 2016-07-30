@@ -1,0 +1,22 @@
+{
+  "name": "patterns_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaffarc/PatternsNodejs.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "jaffar cardoso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaffarc/PatternsNodejs/issues"
+  },
+  "homepage": "https://github.com/jaffarc/PatternsNodejs#readme"
+}
